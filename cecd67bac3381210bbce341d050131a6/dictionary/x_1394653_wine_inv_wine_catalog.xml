@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f547bbac3781210bbce341d0501315e" label="Wine Catalog" max_length="40" name="x_1394653_wine_inv_wine_catalog" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Wine Name" max_length="100" name="wine_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tasting Notes" max_length="1000" name="tasting_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sparkling" sequence="3" value="Sparkling"/>
+                <element inactive_on_update="false" label="Rosé" sequence="2" value="Rosé"/>
+                <element inactive_on_update="false" label="Red" sequence="0" value="Red"/>
+                <element inactive_on_update="false" label="Dessert" sequence="4" value="Dessert"/>
+                <element inactive_on_update="false" label="White" sequence="1" value="White"/>
+            </choice>
+        </element>
+        <element attributes="format=none" label="Vintage" max_length="40" name="vintage" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="1000" name="region" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Average Rating" max_length="15" name="average_rating" type="decimal"/>
+    </element>
+</database>

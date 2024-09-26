@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>quantity</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 18:13:26</sys_created_on>
+        <sys_id>307ae80bc3b85210bbce341d05013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quantity</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_307ae80bc3b85210bbce341d05013172</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 18:13:26</sys_updated_on>
+        <table>x_1394653_wine_inv_wine_inventory_tracking</table>
+        <ui_policy display_value="Quantity is Mandatory for Available">4ac9e443c3785210bbce341d050131cf</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=307ae80bc3b85210bbce341d05013172"/>
+</record_update>

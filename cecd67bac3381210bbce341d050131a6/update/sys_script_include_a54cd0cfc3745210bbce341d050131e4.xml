@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1394653_wine_inv.WineReferenceHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>WineReferenceHelper</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var WineReferenceHelper = Class.create();
+WineReferenceHelper.prototype = {
+    initialize: function() {
+    },
+
+getWineInventoryDetails: function() {
+
+// This is a GlideRecord object for the wine inventory table
+
+var inventoryGR = new GlideRecord('Wine Inventory Tracking');
+inventoryGR.query(); //This queries all records in the wine inventory tracking table
+var results = [];
+//Loop through each inventory record
+while (inventoryGR.next()) {
+	//get the reference to the wine from the wine catalog
+	var wineRef = inventoryGR.wine_reference; //this is the reference field
+
+	//This is a GlideRecord object for the wine catalog table
+	var wineCatalogGR = new GlideRecord('Wine Catalog');
+
+	//Check if the reference is valid and then query the wine catalog
+	if (wineCatalogGR.get(wineRef)) { //this retrieves the wine record based on the reference
+	//output the details
+
+	var wineName = wineCatalogGR.getDisplayValue('name');
+	var wineType = wineCatalogGR.getDisplayValue('type');
+	var vintage = wineCatalogGR.getDisplayValue('vintage');
+
+	//log the info
+	gs.info('Wine Name: ' + wineName + ', Type: ' + wineType + ', Vintage: ' + vintage + ', Quantity: ' + inventoryGR.quantity + ', Location: ' + inventoryGR.location);
+
+	} else {
+		gs.info('No corresponding wine found for inventory record: ' + inventoryGR.sys_id);
+	}
+}
+return results;
+},
+type: 'WineReferenceHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:45:35</sys_created_on>
+        <sys_id>a54cd0cfc3745210bbce341d050131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WineReferenceHelper</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sys_script_include_a54cd0cfc3745210bbce341d050131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:45:35</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a54cd0cfc3745210bbce341d050131e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:45:32</sys_created_on>
+        <sys_id>5c246c8fc3745210bbce341d0501310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:45:32</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

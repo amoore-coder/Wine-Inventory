@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b805007c3b05210bbce341d0501318e" label="Wine Inventory Tracking" max_length="40" name="x_1394653_wine_inv_wine_inventory_tracking" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Last Updated" max_length="40" name="last_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="100" name="location" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element display="true" label="Wine Reference" max_length="32" name="wine_reference" reference="x_1394653_wine_inv_wine_catalog" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Consumed" sequence="2" value="Consumed"/>
+                <element inactive_on_update="false" label="Out of Stock" sequence="3" value="Out of Stock"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="Reserved"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="wine_reference"/>
+        </index>
+    </element>
+</database>
