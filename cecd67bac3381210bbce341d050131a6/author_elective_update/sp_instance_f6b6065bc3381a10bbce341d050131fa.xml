@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b2b6065bc3381a10bbce341d050131df</sp_column>
+        <sp_widget display_value="Current Status">1e699082d7001200a9addd173e24d4e3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 19:34:50</sys_created_on>
+        <sys_id>f6b6065bc3381a10bbce341d050131fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Current Status</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sp_instance_f6b6065bc3381a10bbce341d050131fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 16:43:25</sys_updated_on>
+        <title>Current Status</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"standalone": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_outage_details": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f6b6065bc3381a10bbce341d050131fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</application>
+        <file_path/>
+        <instance_id>659fe2891bcab9d8c84543f4bd4bcbd6</instance_id>
+        <instance_name>dev192057</instance_name>
+        <name>sp_instance_f6b6065bc3381a10bbce341d050131fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b2b6065bc3381a10bbce341d050131df&lt;/sp_column&gt;&lt;sp_widget display_value="Current Status"&gt;1e699082d7001200a9addd173e24d4e3&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-27 19:34:50&lt;/sys_created_on&gt;&lt;sys_id&gt;f6b6065bc3381a10bbce341d050131fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Current Status&lt;/sys_name&gt;&lt;sys_package display_value="Wine Inventory" source="x_1394653_wine_inv"&gt;cecd67bac3381210bbce341d050131a6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Wine Inventory"&gt;cecd67bac3381210bbce341d050131a6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_f6b6065bc3381a10bbce341d050131fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-30 16:43:25&lt;/sys_updated_on&gt;&lt;title&gt;Current Status&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"standalone": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_outage_details": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f6b6065bc3381a10bbce341d050131fa"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1853954792</payload_hash>
+        <record_name>Current Status</record_name>
+        <reverted_from/>
+        <source>c7c1b7f2c3781210bbce341d05013177</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 16:43:25</sys_created_on>
+        <sys_id>9d4cbc58c3891210bbce341d0501311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19243d0bba00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 16:43:25</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d14cbc582c891210cb595bbf6279911b</update_guid>
+        <update_guid_history>d14cbc582c891210cb595bbf6279911b:1853954792,0bfa4adb10781a10ad946b3f0b3a84fe:213050185,43b6065b90381a10248a16fd21fae2fc:-1427854422</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Current Status">25ecf85cc3891210bbce341d050131db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 16:46:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>a8f80502e9344e2c9013d10dfc5908b9</sys_id>
+        <sys_metadata>f6b6065bc3381a10bbce341d050131fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Current Status</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_scope_delete display_value="">307f0b1c0ac84772b745afe1768793e4</sys_scope_delete>
+        <sys_update_name>sp_instance_f6b6065bc3381a10bbce341d050131fa</sys_update_name>
+        <sys_update_version display_value="sp_instance_f6b6065bc3381a10bbce341d050131fa">9d4cbc58c3891210bbce341d0501311b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 16:46:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>child</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <short_description>Contact support to make a request, or report a problem</short_description>
+        <size>md</size>
+        <sp_column display_value="3">3ab6065bc3381a10bbce341d050131d5</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 19:34:50</sys_created_on>
+        <sys_id>feb6065bc3381a10bbce341d050131d7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Help</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sp_instance_link_feb6065bc3381a10bbce341d050131d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 16:17:03</sys_updated_on>
+        <title>Get Help</title>
+        <type>sc_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=feb6065bc3381a10bbce341d050131d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</application>
+        <file_path/>
+        <instance_id>659fe2891bcab9d8c84543f4bd4bcbd6</instance_id>
+        <instance_name>dev192057</instance_name>
+        <name>sp_instance_link_feb6065bc3381a10bbce341d050131d7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;child&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category display_value="Can We Help You?"&gt;e15706fc0a0a0aa7007fc21e1ab70c2f&lt;/sc_category&gt;&lt;short_description&gt;Contact support to make a request, or report a problem&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;3ab6065bc3381a10bbce341d050131d5&lt;/sp_column&gt;&lt;sp_page display_value="sc_category"&gt;07261a2147132100ba13a5554ee49092&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-27 19:34:50&lt;/sys_created_on&gt;&lt;sys_id&gt;feb6065bc3381a10bbce341d050131d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Help&lt;/sys_name&gt;&lt;sys_package display_value="Wine Inventory" source="x_1394653_wine_inv"&gt;cecd67bac3381210bbce341d050131a6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Wine Inventory"&gt;cecd67bac3381210bbce341d050131a6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_feb6065bc3381a10bbce341d050131d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-30 16:17:03&lt;/sys_updated_on&gt;&lt;title&gt;Get Help&lt;/title&gt;&lt;type&gt;sc_category&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=feb6065bc3381a10bbce341d050131d7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>332385606</payload_hash>
+        <record_name>Get Help</record_name>
+        <reverted_from/>
+        <source>c7c1b7f2c3781210bbce341d05013177</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 16:17:03</sys_created_on>
+        <sys_id>fe36f09cc3c51210bbce341d05013141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19243b894ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 16:17:03</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>f236f09c92c51210d120e5d8093b8041</update_guid>
+        <update_guid_history>f236f09c92c51210d120e5d8093b8041:332385606,07a5121702bc1a10c8142311457c7a68:-1675174425,03fa4adb85781a105fa8827697b93ae0:-1295882617,b6b6065b67381a10990099ce466c68d9:569261736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Get Help">15463c98c3c51210bbce341d050131f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 16:17:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>8eeca408583749d8b41dd875c5d9a390</sys_id>
+        <sys_metadata>feb6065bc3381a10bbce341d050131d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Help</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_scope_delete display_value="">307f0b1c0ac84772b745afe1768793e4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_feb6065bc3381a10bbce341d050131d7</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_feb6065bc3381a10bbce341d050131d7">fe36f09cc3c51210bbce341d05013141</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 16:17:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">3ab6065bc3381a10bbce341d050131d5</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:45:57</sys_created_on>
+        <sys_id>a807d297c3bc1a10bbce341d050131c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sp_instance_a807d297c3bc1a10bbce341d050131c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:45:57</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a807d297c3bc1a10bbce341d050131c2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</application>
+        <file_path/>
+        <instance_id>659fe2891bcab9d8c84543f4bd4bcbd6</instance_id>
+        <instance_name>dev192057</instance_name>
+        <name>sp_instance_a807d297c3bc1a10bbce341d050131c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="3">3ab6065bc3381a10bbce341d050131d5</sp_column><sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 20:45:57</sys_created_on><sys_id>a807d297c3bc1a10bbce341d050131c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package><sys_policy/><sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope><sys_update_name>sp_instance_a807d297c3bc1a10bbce341d050131c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 20:45:57</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=a807d297c3bc1a10bbce341d050131c2"/></record_update>]]></payload>
+        <payload_hash>-4208387</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c7c1b7f2c3781210bbce341d05013177</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:45:57</sys_created_on>
+        <sys_id>6007d297c3bc1a10bbce341d050131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192353bb0830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:45:57</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6407d297e6bc1a10ed7bb5f2c03accc4</update_guid>
+        <update_guid_history>6407d297e6bc1a10ed7bb5f2c03accc4:-4208387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c6179257c3bc1a10bbce341d05013104</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:46:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>7a5674ffcec84ffcb8960e8b30418f11</sys_id>
+        <sys_metadata>a807d297c3bc1a10bbce341d050131c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_scope_delete display_value="">307f0b1c0ac84772b745afe1768793e4</sys_scope_delete>
+        <sys_update_name>sp_instance_a807d297c3bc1a10bbce341d050131c2</sys_update_name>
+        <sys_update_version display_value="sp_instance_a807d297c3bc1a10bbce341d050131c2">6007d297c3bc1a10bbce341d050131c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:46:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

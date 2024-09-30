@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1394653_wine_inv_wine_inventory_tracking</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Update Quantity</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // Log the current wine_reference, quantity, and status
+    gs.info('Current wine_reference (sys_id): ' + current.wine_reference + 
+             ', Quantity: ' + current.quantity + 
+             ', Status: ' + current.status);
+
+    // Check if the quantity is greater than zero
+    if (current.quantity > 0) {
+        var wineReference = current.wine_reference; // This should be the sys_id of the wine
+        var gr = new GlideRecord('x_1394653_wine_inv_wine_inventory_tracking');
+        
+        // Query for existing records with the same wine_reference
+        gr.addQuery('wine_reference', wineReference);
+        gr.query();
+
+        // If a matching record exists, update the quantity based on status
+        if (gr.next()) {
+            gs.info('Found existing wine record: ' + wineReference);
+            
+            if (current.status === 'available') {
+                // Update quantity for available status
+                gr.quantity += current.quantity; // Always add to existing quantity
+                gs.info('Updated quantity for available wine: ' + wineReference + ' to ' + gr.quantity);
+            } else if (current.status === 'consumed') {
+                // Log and do not change quantity for consumed
+                gs.info('Wine is consumed, not updating quantity for: ' + wineReference);
+                // Optionally: you could reset or log something here
+            } else if (current.status === 'reserved') {
+                // Log for reserved wines
+                gs.info('Wine is reserved, no quantity update for: ' + wineReference);
+            } else if (current.status === 'out_of_stock') {
+                // Log for out of stock
+                gs.info('Wine is out of stock, no quantity update for: ' + wineReference);
+            }
+
+            gr.update(); // Save the updated record
+            current.setAbortAction(true); // Prevent inserting a new record
+        } else {
+            gs.info('No existing wine found, allowing new record to be inserted.');
+            // Allow the insert if no existing record is found
+            // Ensure all mandatory fields are set before allowing the insert
+            if (!current.wine_reference || !current.quantity) {
+                gs.error('Cannot insert new record; mandatory fields are missing.');
+                current.setAbortAction(true); // Prevent insert
+            }
+        }
+    } else {
+        gs.info('Quantity is not greater than 0, no action taken.');
+        current.setAbortAction(true); // Prevent insert if quantity is not valid
+    }
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 13:53:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>965674d7c3bc9610bbce341d050131a7</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Auto Update Quantity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sys_script_965674d7c3bc9610bbce341d050131a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:19:32</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=965674d7c3bc9610bbce341d050131a7"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>965674d7c3bc9610bbce341d050131a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 13:53:15</sys_created_on>
+        <sys_id>978838d7c3bc9610bbce341d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 13:53:15</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Browse and search for articles, rate or submit feedback</short_description>
+        <size>md</size>
+        <sp_column display_value="2">bab6065bc3381a10bbce341d050131d0</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 19:34:50</sys_created_on>
+        <sys_id>72b6065bc3381a10bbce341d050131d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sp_instance_link_72b6065bc3381a10bbce341d050131d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:18:04</sys_updated_on>
+        <title>Knowledge Base</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=72b6065bc3381a10bbce341d050131d3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</application>
+        <file_path/>
+        <instance_id>659fe2891bcab9d8c84543f4bd4bcbd6</instance_id>
+        <instance_name>dev192057</instance_name>
+        <name>sp_instance_link_72b6065bc3381a10bbce341d050131d3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Browse and search for articles, rate or submit feedback&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;bab6065bc3381a10bbce341d050131d0&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-27 19:34:50&lt;/sys_created_on&gt;&lt;sys_id&gt;72b6065bc3381a10bbce341d050131d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Knowledge Base&lt;/sys_name&gt;&lt;sys_package display_value="Wine Inventory" source="x_1394653_wine_inv"&gt;cecd67bac3381210bbce341d050131a6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Wine Inventory"&gt;cecd67bac3381210bbce341d050131a6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_72b6065bc3381a10bbce341d050131d3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-27 20:18:04&lt;/sys_updated_on&gt;&lt;title&gt;Knowledge Base&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=72b6065bc3381a10bbce341d050131d3"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-926542622</payload_hash>
+        <record_name>Knowledge Base</record_name>
+        <reverted_from/>
+        <source>c7c1b7f2c3781210bbce341d05013177</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:18:04</sys_created_on>
+        <sys_id>10a012dfc3f81a10bbce341d050131d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19235222bff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:18:04</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>94a012df3ff81a10968a6d3ff87239d4</update_guid>
+        <update_guid_history>94a012df3ff81a10968a6d3ff87239d4:-926542622,43fa4adb01781a108fb796567fe15ada:1405321057,b6b6065b31381a10df823656445baad4:-557782560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge Base">15a0d2dfc3f81a10bbce341d05013127</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:18:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>6ae8ef93a9a1410db11ebb7bf8555611</sys_id>
+        <sys_metadata>72b6065bc3381a10bbce341d050131d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_scope_delete display_value="">307f0b1c0ac84772b745afe1768793e4</sys_scope_delete>
+        <sys_update_name>sp_instance_link_72b6065bc3381a10bbce341d050131d3</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_72b6065bc3381a10bbce341d050131d3">10a012dfc3f81a10bbce341d050131d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:18:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
