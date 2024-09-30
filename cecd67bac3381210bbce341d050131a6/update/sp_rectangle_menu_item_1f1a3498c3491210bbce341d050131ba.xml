@@ -18,23 +18,23 @@
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page/>
+        <sp_page display_value="wine_knowledge_home">7f36755cc34d5210bbce341d0501318e</sp_page>
         <sp_rectangle_menu display_value="Wine Inventory Header Menu">b8d9b018c3491210bbce341d050131cf</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 16:34:28</sys_created_on>
         <sys_id>1f1a3498c3491210bbce341d050131ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Knowledge</sys_name>
         <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_1f1a3498c3491210bbce341d050131ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 16:34:28</sys_updated_on>
+        <sys_updated_on>2024-09-30 20:59:32</sys_updated_on>
         <table/>
-        <type>kb</type>
+        <type>page</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>

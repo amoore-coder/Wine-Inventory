@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">4c467d5cc34d5210bbce341d050131a0</sp_column>
+        <sp_widget display_value="Knowledge Bases Browse">abe00f1bdb50320099f93691f0b8f57b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 20:56:45</sys_created_on>
+        <sys_id>c8467d5cc34d5210bbce341d050131a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Explore our Knowledge Bases</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sp_instance_c8467d5cc34d5210bbce341d050131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 21:00:38</sys_updated_on>
+        <title>Explore our Knowledge Bases</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"order_by": {
+		"value": "title",
+		"displayValue": "title"
+	},
+	"order_reverse": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"post_question_label": {
+		"value": "",
+		"displayValue": ""
+	},
+	"create_article_label": {
+		"value": "",
+		"displayValue": ""
+	},
+	"post_question_url": {
+		"value": "",
+		"displayValue": ""
+	},
+	"create_article_url": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8467d5cc34d5210bbce341d050131a3"/>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">05c81a1bc3bc1a10bbce341d05013164</sp_column>
+        <sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:53:37</sys_created_on>
+        <sys_id>89c81a1bc3bc1a10bbce341d05013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Top Rated Articles</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_update_name>sp_instance_89c81a1bc3bc1a10bbce341d05013166</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:53:37</sys_updated_on>
+        <title>Top Rated Articles</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=89c81a1bc3bc1a10bbce341d05013166"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</application>
+        <file_path/>
+        <instance_id>659fe2891bcab9d8c84543f4bd4bcbd6</instance_id>
+        <instance_name>dev192057</instance_name>
+        <name>sp_instance_89c81a1bc3bc1a10bbce341d05013166</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">05c81a1bc3bc1a10bbce341d05013164</sp_column><sp_widget display_value="KB Top Rated">3c817b52cb30020000f8d856634c9cfb</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 20:53:37</sys_created_on><sys_id>89c81a1bc3bc1a10bbce341d05013166</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Top Rated Articles</sys_name><sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package><sys_policy/><sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope><sys_update_name>sp_instance_89c81a1bc3bc1a10bbce341d05013166</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 20:53:37</sys_updated_on><title>Top Rated Articles</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=89c81a1bc3bc1a10bbce341d05013166"/></record_update>]]></payload>
+        <payload_hash>-1225944116</payload_hash>
+        <record_name>Top Rated Articles</record_name>
+        <reverted_from/>
+        <source>c7c1b7f2c3781210bbce341d05013177</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 20:53:37</sys_created_on>
+        <sys_id>0dc81a1bc3bc1a10bbce341d05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923542b7da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:53:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>01c81a1bf2bc1a1063dab9d5b35fcb68</update_guid>
+        <update_guid_history>01c81a1bf2bc1a1063dab9d5b35fcb68:-1225944116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Top Rated Articles">cb16b91cc34d5210bbce341d0501311a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 20:56:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>9bb1fe5c226f4f7e9fb463831cea36a1</sys_id>
+        <sys_metadata>89c81a1bc3bc1a10bbce341d05013166</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Top Rated Articles</sys_name>
+        <sys_package display_value="Wine Inventory" source="x_1394653_wine_inv">cecd67bac3381210bbce341d050131a6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Wine Inventory">cecd67bac3381210bbce341d050131a6</sys_scope>
+        <sys_scope_delete display_value="">307f0b1c0ac84772b745afe1768793e4</sys_scope_delete>
+        <sys_update_name>sp_instance_89c81a1bc3bc1a10bbce341d05013166</sys_update_name>
+        <sys_update_version display_value="sp_instance_89c81a1bc3bc1a10bbce341d05013166">0dc81a1bc3bc1a10bbce341d05013168</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 20:56:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
